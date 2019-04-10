@@ -3,7 +3,7 @@
 if [ "$1" == "" ]
 
 then
-  echo "Usage:     pingsweep.sh [network][starting-IP][ending-IP]"
+  echo "Usage:     pingsweep.sh [network] [starting-IP] [ending-IP]"
   echo "Example: pingsweep.sh 192.168.29 5 10"
 
 else
