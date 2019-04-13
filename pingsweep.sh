@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Program pings a number of IP addresses on a specified /24 network, displays online hosts and writes ICMP traffic to a file
+
 if [ "$1" == "" ]
 
 then
